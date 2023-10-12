@@ -65,6 +65,26 @@ namespace AM.ApplicationCore.Services
             var query= (from flight in Flights where flight.Destination == destination select flight.EstimatedDuration).Average();
             return query;
         }
+        
+        public List<Flight> OrderedDurationFlights()
+        {
+            var query = (from flight in Flights orderby flight.EstimatedDuration descending 
+                         select flight).ToList();
+            return query;
+        }
+        //
+        public List<Traveller> SeniorTravellers(Flight flight)
+        {
+            var query = (from p in flight.Passengers.OfType<Traveller>()
+
+                         orderby p.BirthDate
+                         select p).Take(3).ToList();
+            return query;
+            var query2 = flight.Passengers.OfType<Traveller>().OrderBy(p => p.BirthDate).Take(3).ToList();
+            return query;
+        }
+
+
 
 
         public void GetFlights(string filterType, string filterValue)
