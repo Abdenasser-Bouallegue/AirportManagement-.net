@@ -19,5 +19,6 @@ sf.Flights = TestData.listFlights;
 //{
 //    Console.WriteLine(item);
 //}
-sf.GetFlights("Destination", "Paris");
+//sf.GetFlights("Destination", "Paris");
+sf.GetFlightDates("Paris");
 
