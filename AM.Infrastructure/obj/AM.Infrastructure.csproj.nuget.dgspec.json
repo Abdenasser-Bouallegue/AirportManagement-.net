@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj": {}
+    "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {}
   },
   "projects": {
     "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj": {
+    "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
-        "projectName": "AM.UI.Console",
-        "projectPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
+        "projectUniqueName": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
+        "projectName": "AM.Infrastructure",
+        "projectPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\NASSYR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.UI.Console\\obj\\",
+        "outputPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NASSYR\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -109,9 +109,7 @@
               "target": "Package",
               "version": "[6.0.23, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[6.0.23, )"
             }

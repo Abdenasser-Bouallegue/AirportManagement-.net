@@ -83,6 +83,22 @@ namespace AM.ApplicationCore.Services
             var query2 = flight.Passengers.OfType<Traveller>().OrderBy(p => p.BirthDate).Take(3).ToList();
             return query;
         }
+        public IEnumerable<IGrouping<string,Flight>> DestinationGroupedFlights()
+        {
+            var query = from flight in Flights
+                        group flight by flight.Destination;
+           
+            var query2 = Flights.GroupBy(f => f.Destination);    
+            foreach (var grouping in query2)
+            {
+                Console.WriteLine("Destination "+ grouping.Key);
+                foreach(var flight in grouping)
+                {
+                    Console.WriteLine("Decollage"+flight.FlightDate);
+                }
+            }
+            return query;
+        }
 
 
 

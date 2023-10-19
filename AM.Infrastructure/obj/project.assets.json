@@ -5,7 +5,7 @@
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {
+          "lib/netstandard2.0/Humanizer.dll": {
             "related": ".xml"
           }
         },
@@ -69,7 +69,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "6.0.23"
         },
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
             "related": ".xml"
           }
         },
@@ -89,7 +89,7 @@
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {
             "related": ".xml"
           }
         },
@@ -97,6 +97,18 @@
           "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/6.0.23": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "6.0.23"
+        },
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
@@ -141,7 +153,7 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/_._": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -415,6 +427,31 @@
         "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.xml",
         "microsoft.entityframeworkcore.relational.6.0.23.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Tools/6.0.23": {
+      "sha512": "SHxDbhoNuomnHaIppyjeEjOhT030DDwtMZsnIxRo6kBdFEv8eFwJtl6c+8a91V9nWm9YMNIoWNqlWkvw+JfuUA==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/6.0.23",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/_._",
+        "microsoft.entityframeworkcore.tools.6.0.23.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net461/any/ef.exe",
+        "tools/net461/win-arm64/ef.exe",
+        "tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
@@ -726,7 +763,7 @@
     "net6.0": [
       "AM.ApplicationCore >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.23",
-      "Microsoft.EntityFrameworkCore.Design >= 6.0.23"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.23"
     ]
   },
   "packageFolders": {
@@ -735,11 +772,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
-      "projectName": "AM.UI.Console",
-      "projectPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
+      "projectUniqueName": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
+      "projectName": "AM.Infrastructure",
+      "projectPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\NASSYR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.UI.Console\\obj\\",
+      "outputPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NASSYR\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -776,7 +813,7 @@
             "target": "Package",
             "version": "[6.0.23, )"
           },
-          "Microsoft.EntityFrameworkCore.Design": {
+          "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
