@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace AM.ApplicationCore.Domain
 {
@@ -22,6 +23,8 @@ namespace AM.ApplicationCore.Domain
         public int PlaneId { get; set; }
         public PlaneType PlaneType { get; set; }
         public DateTime ManufactureDate { get; set; }
+
+        [Range(0, int.MaxValue, ErrorMessage = "Only positive number")]
         public int Capacity { get; set; }
         public virtual ICollection<Flight> flights { get; set;}
 
