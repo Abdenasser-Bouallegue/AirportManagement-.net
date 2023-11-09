@@ -1,38 +1,43 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
 
 namespace AM.ApplicationCore.Domain
 {
     public enum PlaneType
     {
-        Airbus, Boing
+        Boing,
+        Airbus
     }
     public class Plane
     {
-        //public Plane(PlaneType planeType, DateTime manufactureDate, int capacity)
-        //{
-        //    PlaneType = planeType;
-        //    ManufactureDate = manufactureDate;
-        //    Capacity = capacity;
-        //}
-       
         public int PlaneId { get; set; }
         public PlaneType PlaneType { get; set; }
         public DateTime ManufactureDate { get; set; }
-
-        [Range(0, int.MaxValue, ErrorMessage = "Only positive number")]
+        [Range(0, int.MaxValue)]
         public int Capacity { get; set; }
-        public virtual ICollection<Flight> flights { get; set;}
+        //prop de navigation
+        public virtual ICollection<Flight> Flights { get; set; }
 
-        public override string? ToString()
+        //TP1-Q6: Réimplémenter la méthode ToString()
+        public override string ToString()
         {
-            return base.ToString();
+            return "PlaneType: " + PlaneType + " ManufactureDate: " + ManufactureDate + " Capacity: " + Capacity;
+        }
+        //TP1-Q7: Constructure non paramétré
+        public Plane()
+        {
+
+        }
+        //TP1-Q8: Constructure paramétré
+        public Plane(PlaneType pt, int capacity, DateTime date)
+        {
+            PlaneType = pt;
+            Capacity = capacity;
+            ManufactureDate = date;
         }
     }
-
-
 }

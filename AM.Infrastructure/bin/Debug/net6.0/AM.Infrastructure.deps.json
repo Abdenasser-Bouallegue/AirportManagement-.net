@@ -1263,7 +1263,8 @@
       },
       "AM.ApplicationCore/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.23"
+          "Microsoft.EntityFrameworkCore": "6.0.23",
+          "Microsoft.EntityFrameworkCore.Proxies": "6.0.23"
         },
         "runtime": {
           "AM.ApplicationCore.dll": {}

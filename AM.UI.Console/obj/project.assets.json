@@ -152,11 +152,11 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/6.0.23": {
+      "Microsoft.EntityFrameworkCore.Design/6.0.14": {
         "type": "package",
         "dependencies": {
           "Humanizer.Core": "2.8.26",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.23"
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.14"
         },
         "compile": {
           "lib/net6.0/_._": {
@@ -221,6 +221,18 @@
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/6.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "6.0.14"
+        },
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
@@ -2217,7 +2229,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.23"
+          "Microsoft.EntityFrameworkCore": "6.0.23",
+          "Microsoft.EntityFrameworkCore.Proxies": "6.0.23"
         },
         "compile": {
           "bin/placeholder/AM.ApplicationCore.dll": {}
@@ -2484,10 +2497,10 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/6.0.23": {
-      "sha512": "TWyK4ymmvQefroVAlEmM+uzbvwQAo8XQ1AENAvsex10J595D33o+RLfvx74upYWx2QlBLGCOHR786T9KovAQqw==",
+    "Microsoft.EntityFrameworkCore.Design/6.0.14": {
+      "sha512": "/AbhTGuC1YmFK0T2VDUqYAFT/WYta3jK1AHyqFcsQFMqxv42bOJQ5rDeQy6+eUvozBrYlhA4VYSaqmnlrFokdw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/6.0.23",
+      "path": "microsoft.entityframeworkcore.design/6.0.14",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2495,7 +2508,7 @@
         "build/net6.0/Microsoft.EntityFrameworkCore.Design.props",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.6.0.23.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.6.0.14.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
@@ -2539,6 +2552,31 @@
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
         "microsoft.entityframeworkcore.sqlserver.6.0.23.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Tools/6.0.14": {
+      "sha512": "bWVJAYk67pVzhqzvs2dR+WbrnI8ioCZQZLyKGDcGAb0Kf0VLhMv0RvP0vshicYl+IWt8C90rMHZspzD0T+sevw==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/6.0.14",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/_._",
+        "microsoft.entityframeworkcore.tools.6.0.14.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net461/any/ef.exe",
+        "tools/net461/win-arm64/ef.exe",
+        "tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
@@ -7078,7 +7116,9 @@
       "AM.ApplicationCore >= 1.0.0",
       "AM.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.23",
-      "Microsoft.EntityFrameworkCore.Design >= 6.0.23"
+      "Microsoft.EntityFrameworkCore.Design >= 6.0.14",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.23",
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.14"
     ]
   },
   "packageFolders": {
@@ -7087,11 +7127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
+      "projectUniqueName": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
       "projectName": "AM.UI.Console",
-      "projectPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
+      "projectPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
       "packagesPath": "C:\\Users\\NASSYR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.UI.Console\\obj\\",
+      "outputPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.UI.Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NASSYR\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7108,11 +7148,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+            "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
             },
-            "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj"
+            "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj"
             }
           }
         }
@@ -7135,7 +7175,17 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
+            "version": "[6.0.14, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
             "version": "[6.0.23, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.0.14, )"
           }
         },
         "imports": [

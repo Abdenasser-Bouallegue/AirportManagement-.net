@@ -2229,7 +2229,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.23"
+          "Microsoft.EntityFrameworkCore": "6.0.23",
+          "Microsoft.EntityFrameworkCore.Proxies": "6.0.23"
         },
         "compile": {
           "bin/placeholder/AM.ApplicationCore.dll": {}
@@ -7104,11 +7105,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
       "projectName": "AM.Infrastructure",
-      "projectPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\NASSYR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NASSYR\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7125,8 +7126,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+            "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
             }
           }
         }
