@@ -7127,11 +7127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
+      "projectUniqueName": "C:\\Users\\NASSYR\\Downloads\\AirportManagement\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
       "projectName": "AM.UI.Console",
-      "projectPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
+      "projectPath": "C:\\Users\\NASSYR\\Downloads\\AirportManagement\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
       "packagesPath": "C:\\Users\\NASSYR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.UI.Console\\obj\\",
+      "outputPath": "C:\\Users\\NASSYR\\Downloads\\AirportManagement\\AirportManagement\\AM.UI.Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NASSYR\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7148,11 +7148,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+            "C:\\Users\\NASSYR\\Downloads\\AirportManagement\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\NASSYR\\Downloads\\AirportManagement\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
             },
-            "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\NASSYR\\source\\repos\\AirportManagement\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj"
+            "C:\\Users\\NASSYR\\Downloads\\AirportManagement\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\NASSYR\\Downloads\\AirportManagement\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj"
             }
           }
         }

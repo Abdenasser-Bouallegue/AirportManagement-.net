@@ -94,15 +94,3 @@ C:\Users\NASSYR\Downloads\AirportManagement\AirportManagement\AM.ApplicationCore
 C:\Users\NASSYR\Downloads\AirportManagement\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\refint\AM.ApplicationCore.dll
 C:\Users\NASSYR\Downloads\AirportManagement\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.pdb
 C:\Users\NASSYR\Downloads\AirportManagement\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\ref\AM.ApplicationCore.dll
-C:\Users\NASSYR\source\repos\AirportManagement\AirportManagement\AM.ApplicationCore\bin\Debug\net6.0\AM.ApplicationCore.deps.json
-C:\Users\NASSYR\source\repos\AirportManagement\AirportManagement\AM.ApplicationCore\bin\Debug\net6.0\AM.ApplicationCore.dll
-C:\Users\NASSYR\source\repos\AirportManagement\AirportManagement\AM.ApplicationCore\bin\Debug\net6.0\AM.ApplicationCore.pdb
-C:\Users\NASSYR\source\repos\AirportManagement\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.csproj.AssemblyReference.cache
-C:\Users\NASSYR\source\repos\AirportManagement\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\NASSYR\source\repos\AirportManagement\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.AssemblyInfoInputs.cache
-C:\Users\NASSYR\source\repos\AirportManagement\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.AssemblyInfo.cs
-C:\Users\NASSYR\source\repos\AirportManagement\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.csproj.CoreCompileInputs.cache
-C:\Users\NASSYR\source\repos\AirportManagement\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.dll
-C:\Users\NASSYR\source\repos\AirportManagement\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\refint\AM.ApplicationCore.dll
-C:\Users\NASSYR\source\repos\AirportManagement\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.pdb
-C:\Users\NASSYR\source\repos\AirportManagement\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\ref\AM.ApplicationCore.dll

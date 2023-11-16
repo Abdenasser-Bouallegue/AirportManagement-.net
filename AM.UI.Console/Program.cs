@@ -81,6 +81,14 @@ Console.WriteLine(" --- AirportManagement Project ---");
 //Console.WriteLine("************************************ Testing Extension methods  ****************************** ");
 //p1.UpperFullName();
 //Console.WriteLine("First Name: " + p1.FirstName + " Last Name: " + p1.LastName);
+AMContext context = new AMContext();
+//context.Flights.Add(TestData.flight2);
+//context.SaveChanges();
+UnitOfWork uw = new UnitOfWork(context, typeof(GenericRepository<>));
+ServicePlane sp = new ServicePlane(uw);
+sp.Add(TestData.BoingPlane);
+sp.Save();
+Console.WriteLine(context.Planes.First());
 
 
 
